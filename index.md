@@ -135,12 +135,15 @@ It was decided to be done now because it fit in with previous final projects don
 
 - Alter spin of teacups in JavaScript virtual reality application based on result of querying the last detected gesture web API
 
+https://user-images.githubusercontent.com/42684440/145895536-6414608e-14d7-4110-8b7f-ac662769e770.mov
+
 (Video illustrates the spinning motion which is changed depending on what the last gesture that detected was)
 
 &nbsp;  
 
 ## Video
 
+Final video can be found in resources/CS6360FinalProject.mp4
 
 &nbsp;  
 
@@ -153,16 +156,5 @@ This logo illustrates the wireless nature of the controller by the wireless ante
 
 The robot head implies this controller platform being the "brain"/"smart". 
 This is in line with the project since the handheld controller is "smarter" than the average controller as it leverages machine learning to be able to predict on complex gestures (i.e. the "x" gesture).
-
-
-
-
-
-
-
-
-<!-- Need to add 6 images for project -->
-
-
 
 
