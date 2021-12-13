@@ -41,7 +41,7 @@ Extending the behavior of this VR teacup visualization application to rotate the
 ## About
 I am a final year BS/MS Mechanical Engineering student who has been focused on robotics and computing since completing undergrad.
 
-<img src="./resources/professional_picture.png" width="200"/>
+<img src="./resources/professional_picture.jpg" width="200"/>
 
 I decided to enroll in this class because I thought it would be interesting to learn about virtual reality and the engineering problems that lie in its domain.
 During one of my internships augmented reality was being explored to help improve communication between manufacturing teams across the world so I really could see how virtual reality could have many far reaching applications, especially as I enter a career.
@@ -117,26 +117,29 @@ It was decided to be done now because it fit in with previous final projects don
 
 - Collect labelled gestures from base station
 
-<img src="./resources/labelled_data.png" width="300"/>
+<img src="./resources/labelled_data.jpg" width="300"/>
 
 (Labelled data with the filename of the csv holding the sensor readings as the first column, the label in the second column, and the sample time in the third column)
 
 - Use labelled gesture data to produce a machine learning gesture model that can accurately predict gesture on unseen signal data 
 
-<img src="./resources/error_v_epoch.png" width="300"/>
+<img src="./resources/error_v_epoch.jpg" width="300"/>
 
 (Error vs epoch plot showing between 0% and 2% error on a validation set when converged, the accompanying held-out test set error was 2.6%, more information about the training results can be found in training/models/gesture_model_12_12_2021_14_15_54.ipynb)
 
 - Use gesture model to predict in real-time and have last predicted gesture accessible via a web API
 
-<img src="./resources/web_api.png" width="300"/>
+<img src="./resources/web_api.jpg" width="400"/>
+
+(Showing web API which gives last prediction as JSON to a "GET" query on the server/currentprediction resource)
 
 - Alter spin of teacups in JavaScript virtual reality application based on result of querying the last detected gesture web API
+
+(Video illustrates the spinning motion which is changed depending on what the last gesture that detected was)
 
 &nbsp;  
 
 ## Video
-"Feature highlight"- go through what was done by screen recording....
 
 
 &nbsp;  
@@ -144,7 +147,7 @@ It was decided to be done now because it fit in with previous final projects don
 ## Project Logo
 As per instructions a logo that represents my project is:
 
-<img src="./resources/project_logo_image.png" width="200"/>
+<img src="./resources/project_logo_image.jpg" width="200"/>
 
 This logo illustrates the wireless nature of the controller by the wireless antenna and signal lines.
 
